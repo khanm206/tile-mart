@@ -1,2 +1,16 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@layer components {
+  .bgMe {
+    @apply bg-[#F2EDE4] text-[#75514A];
+  }
+
+  .textMe {
+    @apply text-[#75514A];
+  }
+
+  .btnMe {
+    @apply btn rounded bg-[#75514A] text-white hover:bg-white hover:text-[#75514A] transition;
+  }
+}
