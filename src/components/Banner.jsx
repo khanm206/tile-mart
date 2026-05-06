@@ -31,6 +31,7 @@ export default function Banner() {
               alt="banner"
               height={500}
               width={500}
+              priority
               className="object-bottom w-full md:h-[60dvh]"
             />
 
@@ -44,6 +45,7 @@ export default function Banner() {
               alt="banner"
               height={500}
               width={500}
+              priority
               className="object-bottom w-full md:h-[60dvh]"
             />
 
@@ -57,6 +59,7 @@ export default function Banner() {
               alt="banner"
               height={500}
               width={500}
+              priority
               className="object-bottom w-full md:h-[60dvh]"
             />
 
