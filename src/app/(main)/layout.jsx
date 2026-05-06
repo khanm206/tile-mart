@@ -4,10 +4,10 @@ import NavBar from "@/components/NavBar";
 const MainLayout = ({ children }) => {
   return (
     <section className="min-h-screen flex flex-col">
-      <section className="sticky top-0 z-50 bg-base-100 pb-6">
+      <section className="sticky top-0 z-50">
         <NavBar />
       </section>
-      <main className=" w-11/12 mx-auto flex-1">{children}</main>
+      <main className="flex-1">{children}</main>
       <Footer />
     </section>
   );
