@@ -3,7 +3,7 @@ const TilesMarquee = () => {
   return (
     <div>
       <Marquee pauseOnHover speed={150}>
-        <div className="flex gap-12 text-2xl marquee py-4">
+        <div className="flex gap-12 text-xl md:text-2xl marquee py-4">
           <p>
             <span className="font-semibold">New Arrivals:</span> Marble Luxe
             Series | Premium Ceramic Collection Now In Stock | Explore Latest

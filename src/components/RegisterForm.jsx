@@ -111,7 +111,7 @@ const RegisterForm = () => {
       <div className="mt-4">
         <button
           onClick={handleGoogleSignin}
-          className="btn flex items-center gap-2 border-2 rounded-md border-sky-600 text-sky-600 md:text-2xl py-8 w-full"
+          className="btn flex items-center gap-2 border-2 rounded-md border-sky-600 text-sky-600 md:text-2xl py-2 md:py-6 w-full"
         >
           <FcGoogle /> Login with Google
         </button>

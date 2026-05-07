@@ -7,7 +7,7 @@ export const metadata = {
 const RegisterPage = () => {
   return (
     <section className="flex-1 flex items-center justify-center ">
-      <div className="mx-auto bg-base-100 border-base-300 rounded-box border p-6 md:py-18 md:px-20 my-8">
+      <div className="mx-auto bg-base-100 border-base-300 rounded-box border p-6 md:py-18 md:px-20 my-8 w-11/12  md:w-auto">
         <h1 className="text-xl md:text-3xl font-bold w-fit mx-auto">
           Register your account
         </h1>

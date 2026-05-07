@@ -21,7 +21,7 @@ export default function Banner() {
           delay: 0,
           disableOnInteraction: false,
         }}
-        speed={4000}
+        speed={6000}
         loop={true}
       >
         <SwiperSlide>
@@ -32,7 +32,7 @@ export default function Banner() {
               height={500}
               width={500}
               priority
-              className="object-bottom w-full md:h-[60dvh]"
+              className="object-bottom w-full h-[40dvh] md:h-[60dvh]"
             />
 
             <div className="absolute inset-0 bg-black/70"></div>
@@ -46,7 +46,7 @@ export default function Banner() {
               height={500}
               width={500}
               priority
-              className="object-bottom w-full md:h-[60dvh]"
+              className="object-bottom w-full md:h-[60dvh] h-[40dvh]"
             />
 
             <div className="absolute inset-0 bg-black/70"></div>
@@ -60,7 +60,7 @@ export default function Banner() {
               height={500}
               width={500}
               priority
-              className="object-bottom w-full md:h-[60dvh]"
+              className="object-bottom w-full md:h-[60dvh] h-[40dvh]"
             />
 
             <div className="absolute inset-0 bg-black/70"></div>

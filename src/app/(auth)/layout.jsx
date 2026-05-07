@@ -7,8 +7,8 @@ const AuthLayout = ({ children }) => {
     <section className="min-h-screen flex flex-col">
       <section className="sticky top-0 z-50">
         <NavBar />
-        <TilesMarquee />
       </section>
+      <TilesMarquee />
       <main className="flex-1 flex bgLogin">{children}</main>
     </section>
   );
