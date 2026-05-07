@@ -84,7 +84,7 @@ The application is built using modern technologies including React, Next.js, Mon
 
 ---
 
-## 🔒 Authentication Workflow
+# 🔒 Authentication Workflow
 
 1. User registers or logs in
 2. Better Auth verifies authentication
@@ -94,7 +94,7 @@ The application is built using modern technologies including React, Next.js, Mon
 
 ---
 
-## 📱 Responsive Design
+# 📱 Responsive Design
 
 TileMart is optimized for:
 
@@ -105,7 +105,7 @@ TileMart is optimized for:
 
 ---
 
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
 Moin Khan
 
@@ -113,7 +113,7 @@ Moin Khan
 
 ---
 
-## ⭐ Future Improvements
+# ⭐ Future Improvements
 
 - Shopping cart functionality
 - Wishlist system
@@ -124,6 +124,6 @@ Moin Khan
 
 ---
 
-## 📜 License
+# 📜 License
 
 This project is created for learning and portfolio purposes.
