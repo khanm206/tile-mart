@@ -1,6 +1,15 @@
 import DetailsCard from "@/components/DetailsCard";
 import Data from "@/lib/Data";
 import React from "react";
+export async function generateMetadata({ params }) {
+  const tiles = await Data();
+
+  const tile = tiles.find((t) => t.id === params.id);
+
+  return {
+    title: tile?.title,
+  };
+}
 
 const TileDetailsPage = async ({ params }) => {
   const param = await params;

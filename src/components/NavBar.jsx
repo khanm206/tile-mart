@@ -40,6 +40,11 @@ const NavBar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             {...pages}
+            <li>
+              <Link href={"/login"} className="btnMe h-fit">
+                Login
+              </Link>
+            </li>
           </ul>
         </div>
         <Link href={"/"} className="">
@@ -58,7 +63,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href={"/login"} className="md:text-xl btnMe">
+        <Link href={"/login"} className="hidden lg:flex text-xl btnMe">
           Login
         </Link>
       </div>

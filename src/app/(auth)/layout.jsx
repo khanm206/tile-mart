@@ -7,7 +7,7 @@ const AuthLayout = ({ children }) => {
       <section className="sticky top-0 z-50">
         <NavBar />
       </section>
-      <main className="flex-1 flex">{children}</main>
+      <main className="flex-1 flex bgLogin">{children}</main>
     </section>
   );
 };

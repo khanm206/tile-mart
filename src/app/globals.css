@@ -19,4 +19,8 @@
   .marquee {
     @apply bg-[#75514A] text-white;
   }
+
+  .bgLogin {
+    @apply bg-[#ede7dd] text-[#75514A];
+  }
 }

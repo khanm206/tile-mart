@@ -1,5 +1,8 @@
 import Data from "@/lib/Data";
 import TileSearch from "@/components/TileBar";
+export const metadata = {
+  title: "All Tiles",
+};
 
 const AllTilesPage = () => {
   const tiles = Data();
