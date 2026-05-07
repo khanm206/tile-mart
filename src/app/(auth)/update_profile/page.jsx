@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import UpdateForm from "@/components/UpdateForm";
 export const metadata = {
   title: "Update",

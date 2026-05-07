@@ -12,7 +12,7 @@ const Profile = () => {
       {isPending ? (
         <span className="loading loading-bars loading-xl"></span>
       ) : (
-        <div className="flex flex-col justify-center items-center gap-6 ">
+        <div className="flex flex-col justify-center items-center">
           <div className="rounded-full p-2 bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 w-fit">
             <div className="rounded-full bg-white p-1">
               {user.image ? (
