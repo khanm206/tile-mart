@@ -6,6 +6,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
+import { toast } from "react-toastify";
 
 const RegisterForm = () => {
   const [showPass, setShowPass] = useState(false);
@@ -21,10 +22,10 @@ const RegisterForm = () => {
       callbackURL: "/login",
     });
     if (error) {
-      alert(error.message);
+      toast.error(error.message);
     }
     if (res) {
-      alert(`${name} is successfully registered`);
+      toast.success(`${name} is successfully registered`);
       router.push("/login");
     }
   };

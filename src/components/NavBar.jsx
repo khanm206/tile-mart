@@ -6,6 +6,7 @@ import { authClient } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
 
 import userIcon from "../assets/user_Icon.png";
+import { toast } from "react-toastify";
 
 const NavBar = () => {
   const { data: session, isPending } = authClient.useSession();
@@ -112,6 +113,7 @@ const NavBar = () => {
                 onClick={async () => {
                   await authClient.signOut();
                   router.refresh();
+                  toast.info("User LogOut Successful");
                 }}
                 className="hidden lg:flex text-xl btnMe"
               >
@@ -128,6 +130,7 @@ const NavBar = () => {
                 onClick={async () => {
                   await authClient.signOut();
                   router.refresh();
+                  toast.info("User LogOut Successful");
                 }}
                 className="hidden lg:flex text-xl btnMe"
               >

@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
+import { toast } from "react-toastify";
 
 const LoginForm = () => {
   const [showPass, setShowPass] = useState(false);
@@ -17,7 +18,10 @@ const LoginForm = () => {
       callbackURL: "/",
     });
     if (error) {
-      alert(error.message);
+      toast.error(error.message);
+    }
+    if (res) {
+      toast.success("Login Successful");
     }
   };
 

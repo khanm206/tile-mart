@@ -4,6 +4,7 @@ import { authClient } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
 
 import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
 
 const UpdateForm = () => {
   const {
@@ -20,10 +21,10 @@ const UpdateForm = () => {
       updatedAt: new Date().toISOString(),
     });
     if (error) {
-      alert(error.message);
+      toast.error(error.message);
     }
     if (res) {
-      alert(`account is successfully updated`);
+      toast.success(`Account is successfully updated`);
       router.push("/my_profile");
     }
   };

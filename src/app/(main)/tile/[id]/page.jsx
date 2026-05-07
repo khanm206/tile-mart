@@ -1,4 +1,5 @@
 import DetailsCard from "@/components/DetailsCard";
+import TilesMarquee from "@/components/TilesMarquee";
 import Data from "@/lib/Data";
 import React from "react";
 export async function generateMetadata({ params }) {
@@ -17,9 +18,12 @@ const TileDetailsPage = async ({ params }) => {
   const tile = tiles.find((t) => t.id === param.id);
 
   return (
-    <section className="w-11/12  mx-auto my-8  flex items-center justify-center">
-      <div className="flex-1 ">
-        <DetailsCard tile={tile} />
+    <section>
+      <TilesMarquee />
+      <div className="w-11/12  mx-auto my-8  flex items-center justify-center">
+        <div className="flex-1 ">
+          <DetailsCard tile={tile} />
+        </div>
       </div>
     </section>
   );
