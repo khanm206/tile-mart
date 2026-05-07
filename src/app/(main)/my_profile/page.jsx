@@ -1,4 +1,5 @@
-import React from "react";
+import Profile from "@/components/Profile";
+import Link from "next/link";
 
 export const metadata = {
   title: "My Profile",
@@ -6,9 +7,12 @@ export const metadata = {
 
 const MyProfilePage = () => {
   return (
-    <div>
-      <h1 className="text-4xl"> About Us Page</h1>
-    </div>
+    <section className="flex flex-col gap-8 min-h-screen justify-center items-center textMe">
+      <Profile />
+      <Link href={"/update_profile"} className="btnMe p-6 text-2xl">
+        Update Profile
+      </Link>
+    </section>
   );
 };
 

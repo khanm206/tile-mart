@@ -17,6 +17,7 @@ const RegisterForm = () => {
       email: email,
       password: password,
       image: photo,
+      createdAt: new Date().toISOString(),
       callbackURL: "/login",
     });
     if (error) {
@@ -35,9 +36,9 @@ const RegisterForm = () => {
   } = useForm();
 
   const handleGoogleSignin = async () => {
-    // const data = await authClient.signIn.social({
-    //   provider: "google",
-    // });
+    const data = await authClient.signIn.social({
+      provider: "google",
+    });
   };
 
   return (

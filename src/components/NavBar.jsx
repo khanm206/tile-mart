@@ -1,8 +1,24 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import NavLink from "./NavLink";
+import { authClient } from "@/lib/auth-client";
+import { useRouter } from "next/navigation";
+
+import userIcon from "../assets/user_Icon.png";
 
 const NavBar = () => {
+  const { data: session, isPending } = authClient.useSession();
+  const user = session?.user;
+  const getGreeting = () => {
+    const hour = new Date().getHours();
+
+    if (hour < 12) return "Good Morning";
+    if (hour < 18) return "Good Afternoon";
+
+    return "Good Night";
+  };
+  const router = useRouter();
   const pages = [
     <li key={"home"}>
       <NavLink href={"/"}>Home</NavLink>
@@ -41,9 +57,21 @@ const NavBar = () => {
           >
             {...pages}
             <li>
-              <Link href={"/login"} className="btnMe h-fit">
-                Login
-              </Link>
+              {user ? (
+                <button
+                  onClick={async () => {
+                    await authClient.signOut();
+                    router.refresh();
+                  }}
+                  className=" h-fit btnMe"
+                >
+                  Logout
+                </button>
+              ) : (
+                <Link href={"/login"} className="btnMe h-fit">
+                  Login
+                </Link>
+              )}
             </li>
           </ul>
         </div>
@@ -53,6 +81,7 @@ const NavBar = () => {
             alt="logo"
             width={100}
             height={50}
+            priority
             className="md:w-38"
           />
         </Link>
@@ -63,9 +92,54 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href={"/login"} className="hidden lg:flex text-xl btnMe">
-          Login
-        </Link>
+        {isPending ? (
+          "Loading..."
+        ) : user ? (
+          user.image ? (
+            <div className="flex items-center gap-1 md:gap-2">
+              <p className="text-xs md:text-base">
+                {getGreeting()}, {user.name}
+              </p>
+              <Image
+                src={user.image}
+                alt="user icon"
+                width={60}
+                height={60}
+                priority
+                className="h-6 w-6 md:h-auto md:w-12 rounded-full"
+              />
+              <button
+                onClick={async () => {
+                  await authClient.signOut();
+                  router.refresh();
+                }}
+                className="hidden lg:flex text-xl btnMe"
+              >
+                Logout
+              </button>
+            </div>
+          ) : (
+            <div className="flex items-center gap-1 md:gap-2">
+              <p className="text-xs md:text-base">
+                {getGreeting()}, {user.name}
+              </p>
+              <Image src={userIcon} alt="user icon" width={60} height={60} />
+              <button
+                onClick={async () => {
+                  await authClient.signOut();
+                  router.refresh();
+                }}
+                className="hidden lg:flex text-xl btnMe"
+              >
+                Logout
+              </button>
+            </div>
+          )
+        ) : (
+          <Link href={"/login"} className="hidden lg:flex text-xl btnMe">
+            Login
+          </Link>
+        )}
       </div>
     </div>
   );

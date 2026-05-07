@@ -28,9 +28,9 @@ const LoginForm = () => {
   } = useForm();
 
   const handleGoogleSignin = async () => {
-    // const data = await authClient.signIn.social({
-    //   provider: "google",
-    // });
+    const data = await authClient.signIn.social({
+      provider: "google",
+    });
   };
 
   return (
