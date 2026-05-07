@@ -17,7 +17,6 @@ export default function NotFound() {
         </p>
 
         <div className="flex gap-4 justify-center">
-          {/* Back Button */}
           <button
             onClick={() => router.back()}
             className="px-5 py-2.5 rounded-xl btn font-medium hover:opacity-90 transition"
@@ -25,7 +24,6 @@ export default function NotFound() {
             Go Back
           </button>
 
-          {/* Home Button */}
           <button
             onClick={() => router.push("/")}
             className="px-5 py-2.5 rounded-xl btn hover:border-white transition"

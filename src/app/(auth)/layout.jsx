@@ -4,7 +4,9 @@ import { montserrat } from "../layout";
 const AuthLayout = ({ children }) => {
   return (
     <section className="min-h-screen flex flex-col">
-      <NavBar />
+      <section className="sticky top-0 z-50">
+        <NavBar />
+      </section>
       <main className="flex-1 flex">{children}</main>
     </section>
   );

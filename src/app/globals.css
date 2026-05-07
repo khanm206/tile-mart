@@ -11,7 +11,7 @@
   }
 
   .btnMe {
-    @apply btn rounded bg-[#75514A] text-white hover:bg-white hover:text-[#75514A] transition;
+    @apply btn rounded-xl bg-[#75514A] text-white hover:bg-white hover:text-[#75514A] transition duration-500;
   }
   .btnBanner {
     @apply btn text-xl rounded bg-[#F2EDE4] text-[#75514A] hover:bg-[#75514A] hover:text-[#F2EDE4] transition;

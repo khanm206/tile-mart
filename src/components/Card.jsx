@@ -5,7 +5,7 @@ const Card = ({ tile }) => {
   const { id, image, title, price, inStock } = tile;
 
   return (
-    <div className="card w-full bgMe shadow-sm hover:scale-105 transition overflow-hidden">
+    <div className="card w-full bgMe shadow-sm hover:scale-105 transition duration-300 overflow-hidden">
       <figure className="relative">
         <Image
           src={image}

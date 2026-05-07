@@ -2,7 +2,7 @@
   {
     "id": "tile_001",
     "title": "Blue Ceramic Tile",
-    "description": "A glossy, deep blue ceramic wall tile designed to bring a clean and vibrant finish to interior spaces. Its reflective surface enhances lighting and adds a modern, polished look, making it ideal for kitchens, bathrooms, and feature walls.",
+    "description": "A glossy, deep blue ceramic wall tile designed to bring a clean and vibrant finish to interior spaces. Its reflective surface enhances lighting and adds a modern, polished look, making it ideal for kitchens, bathrooms, and feature walls.\nEnhances natural and artificial light reflection.\nEasy to clean and maintain surface.\nResistant to everyday stains and moisture.\nSuitable for both residential and light commercial use.\nWorks well with white and neutral interiors.\nAdds a calming ocean-inspired aesthetic.\nDurable ceramic structure for long life.\nHeat resistant and bathroom safe.\nCan be used in creative mosaic patterns.\nPerfect for modern minimalist designs.\nGives a premium hotel-style finish.",
     "image": "https://images.unsplash.com/photo-1615873968403-89e068629265",
     "category": "ceramic",
     "price": 45.99,
@@ -10,14 +10,14 @@
     "dimensions": "60x60 cm",
     "material": "Ceramic",
     "inStock": true,
-    "tile_type": "plain",
-    "size": "large",
-    "use_type": "wall"
+    "tile_type": "Plain",
+    "size": "Large",
+    "use_type": "Wall"
   },
   {
     "id": "tile_002",
     "title": "White Marble Tile",
-    "description": "A premium white marble flooring tile with natural veining that delivers a luxury hotel-style finish. It offers timeless elegance and durability, making it perfect for high-end living rooms, hallways, and commercial interiors.",
+    "description": "A premium white marble flooring tile with natural veining that delivers a luxury hotel-style finish. It offers timeless elegance and durability, making it perfect for high-end living rooms, hallways, and commercial interiors.\nNaturally unique veining on each tile.\nCreates bright and spacious interiors.\nHighly durable for long-term flooring.\nPolished surface for luxury appeal.\nSuitable for both homes and offices.\nEnhances property value and aesthetics.\nCool surface ideal for warm climates.\nPairs well with gold and black accents.\nLow porosity when properly sealed.\nIdeal for premium architectural designs.\nTimeless material that never goes out of style.",
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
     "category": "marble",
     "price": 89.99,
@@ -25,14 +25,14 @@
     "dimensions": "60x60 cm",
     "material": "Marble",
     "inStock": true,
-    "tile_type": "plain",
-    "size": "large",
-    "use_type": "floor"
+    "tile_type": "Plain",
+    "size": "Large",
+    "use_type": "Floor"
   },
   {
     "id": "tile_003",
     "title": "Grey Stone Tile",
-    "description": "A natural grey stone floor tile that brings an earthy, grounded aesthetic to any space. Its textured surface and subtle tonal variations make it ideal for modern rustic homes, patios, and high-traffic areas.",
+    "description": "A natural grey stone floor tile that brings an earthy, grounded aesthetic to any space. Its textured surface and subtle tonal variations make it ideal for modern rustic homes, patios, and high-traffic areas.\nStrong resistance to wear and pressure.\nNatural stone texture adds authenticity.\nSlip-resistant surface for safety.\nPerfect for outdoor and indoor use.\nBlends well with wood and metal décor.\nLong-lasting and weather durable.\nIdeal for rustic and industrial styles.\nLow maintenance with proper sealing.\nHides dirt and stains effectively.\nCreates a calming natural atmosphere.\nSuitable for patios and hallways.",
     "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a",
     "category": "stone",
     "price": 52.5,
@@ -40,29 +40,29 @@
     "dimensions": "60x60 cm",
     "material": "Stone",
     "inStock": true,
-    "tile_type": "plain",
-    "size": "large",
-    "use_type": "floor"
+    "tile_type": "Plain",
+    "size": "Large",
+    "use_type": "Floor"
   },
   {
     "id": "tile_004",
     "title": "Wood Look Tile",
-    "description": "A tile designed with a realistic wood grain texture, offering the warmth of timber with the durability of tile. Perfect for areas where natural wood is impractical, such as kitchens, bathrooms, and busy living spaces.",
-    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+    "description": "A tile designed with a realistic wood grain texture, offering the warmth of timber with the durability of tile. Perfect for areas where natural wood is impractical, such as kitchens, bathrooms, and busy living spaces.\nWater resistant alternative to real wood.\nNo risk of warping or termite damage.\nWarm natural wood aesthetic.\nSuitable for heavy foot traffic areas.\nEasy to clean and maintain.\nAvailable in multiple wood tones.\nCompatible with underfloor heating.\nLong-lasting ceramic durability.\nIdeal for modern and rustic interiors.\nScratch resistant surface finish.\nEco-friendly alternative to hardwood.",
+    "image": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1200&q=80",
     "category": "wood",
     "price": 49.99,
     "currency": "£",
     "dimensions": "15x90 cm",
-    "material": "Ceramic",
+    "material": "Wood",
     "inStock": true,
-    "tile_type": "plain",
-    "size": "large",
-    "use_type": "floor"
+    "tile_type": "Plain",
+    "size": "Large",
+    "use_type": "Floor & Wall"
   },
   {
     "id": "tile_005",
     "title": "Black Matte Tile",
-    "description": "A sleek black matte porcelain tile that delivers a bold, minimalist aesthetic. Its non-reflective finish creates a modern architectural feel, perfect for contemporary bathrooms, kitchens, and accent walls.",
+    "description": "A sleek black matte porcelain tile that delivers a bold, minimalist aesthetic. Its non-reflective finish creates a modern architectural feel, perfect for contemporary bathrooms, kitchens, and accent walls.\nNon-glossy finish reduces glare.\nStrong porcelain durability.\nScratch and stain resistant.\nIdeal for modern luxury interiors.\nCreates dramatic contrast designs.\nWorks well with LED lighting setups.\nWater resistant for wet areas.\nLow maintenance surface.\nSuitable for floors and walls.\nElegant minimalist design appeal.\nPerfect for industrial themes.",
     "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
     "category": "porcelain",
     "price": 48.0,
@@ -70,14 +70,14 @@
     "dimensions": "30x60 cm",
     "material": "Porcelain",
     "inStock": false,
-    "tile_type": "plain",
-    "size": "medium",
-    "use_type": "wall"
+    "tile_type": "Plain",
+    "size": "Medium",
+    "use_type": "Wall"
   },
   {
     "id": "tile_006",
     "title": "Mosaic Glass Tile",
-    "description": "A colorful glass mosaic tile designed to create artistic and vibrant wall patterns. Its reflective glass pieces catch light beautifully, making it ideal for feature walls, bathrooms, and decorative splashbacks.",
+    "description": "A colorful glass mosaic tile designed to create artistic and vibrant wall patterns. Its reflective glass pieces catch light beautifully, making it ideal for feature walls, bathrooms, and decorative splashbacks.\nHighly reflective surface design.\nCreates artistic visual patterns.\nIdeal for luxury interiors.\nWaterproof and stain resistant.\nEasy to clean surface.\nPerfect for kitchen splashbacks.\nAdds color and texture depth.\nDurable glass composition.\nSuitable for creative installations.\nEnhances lighting effects.\nModern decorative appeal.",
     "image": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
     "category": "glass",
     "price": 65.0,
@@ -85,29 +85,29 @@
     "dimensions": "30x30 cm",
     "material": "Glass",
     "inStock": true,
-    "tile_type": "patterned",
-    "size": "medium",
-    "use_type": "wall"
+    "tile_type": "Patterned",
+    "size": "Medium",
+    "use_type": "Wall"
   },
   {
     "id": "tile_007",
     "title": "Beige Ceramic Tile",
-    "description": "A soft beige ceramic wall tile offering a warm and neutral aesthetic suitable for any interior style. Its smooth finish and calming tone make it perfect for creating bright, spacious-looking rooms.",
+    "description": "A soft beige ceramic wall tile offering a warm and neutral aesthetic suitable for any interior style. Its smooth finish and calming tone make it perfect for creating bright, spacious-looking rooms.\nNeutral tone matches all décor styles.\nEnhances room brightness naturally.\nSmooth easy-clean surface.\nIdeal for minimal interiors.\nMoisture resistant ceramic build.\nCreates warm ambient feel.\nPerfect for bathrooms and kitchens.\nTimeless classic color choice.\nDurable and long-lasting.\nEasy installation process.\nWorks with modern and traditional designs.",
     "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop",
     "category": "ceramic",
     "price": 35.99,
     "currency": "£",
     "dimensions": "30x30 cm",
     "material": "Ceramic",
-    "inStock": true,
-    "tile_type": "plain",
-    "size": "medium",
-    "use_type": "wall"
+    "inStock": false,
+    "tile_type": "Plain",
+    "size": "Medium",
+    "use_type": "Floor & Wall"
   },
   {
     "id": "tile_008",
     "title": "Patterned Floor Tile",
-    "description": "A decorative patterned floor tile featuring intricate designs that add character and personality to interiors. Ideal for statement floors in kitchens, hallways, and boutique-style spaces.",
+    "description": "A decorative patterned floor tile featuring intricate designs that add character and personality to interiors. Ideal for statement floors in kitchens, hallways, and boutique-style spaces.\nUnique decorative patterns per tile.\nCreates strong visual focal points.\nPerfect for vintage-inspired interiors.\nDurable floor-grade construction.\nSlip-resistant surface design.\nAdds artistic personality to rooms.\nSuitable for cafes and boutiques.\nEasy to maintain surface.\nLong-lasting color retention.\nWorks in modern and classic homes.\nEnhances luxury aesthetic appeal.",
     "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop",
     "category": "cement",
     "price": 58.0,
@@ -115,29 +115,29 @@
     "dimensions": "20x20 cm",
     "material": "Ceramic",
     "inStock": false,
-    "tile_type": "patterned",
-    "size": "small",
-    "use_type": "floor"
+    "tile_type": "Patterned",
+    "size": "Small",
+    "use_type": "Floor"
   },
   {
     "id": "tile_009",
     "title": "Green Subway Tile",
-    "description": "A glossy green subway-style ceramic tile perfect for kitchen backsplashes and bathroom walls. Its elongated shape and vibrant tone add freshness and modern charm to interior spaces.",
-    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+    "description": "A glossy green subway-style ceramic tile perfect for kitchen backsplashes and bathroom walls. Its elongated shape and vibrant tone add freshness and modern charm to interior spaces.\nClassic subway tile layout design.\nGlossy finish enhances brightness.\nFresh green color aesthetic.\nPerfect for backsplash areas.\nEasy to clean surface.\nMoisture resistant ceramic.\nModern yet timeless appeal.\nIdeal for kitchen décor.\nWorks in patterned layouts.\nDurable wall protection.\nAdds natural freshness feel.",
+    "image": "https://plus.unsplash.com/premium_photo-1679121400918-e993c9a1940a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdyZWVuJTIwdGlsZSUyMHJvb218ZW58MHx8MHx8fDA%3D",
     "category": "ceramic",
     "price": 34.5,
     "currency": "£",
     "dimensions": "7.5x30 cm",
     "material": "Ceramic",
     "inStock": true,
-    "tile_type": "plain",
-    "size": "small",
-    "use_type": "wall"
+    "tile_type": "Plain",
+    "size": "Small",
+    "use_type": "Wall"
   },
   {
     "id": "tile_010",
     "title": "Luxury Gold Accent Tile",
-    "description": "A decorative gold accent tile designed to bring luxury and sophistication into interior spaces. Its reflective metallic finish makes it perfect for feature walls, high-end bathrooms, and premium commercial interiors.",
+    "description": "A decorative gold accent tile designed to bring luxury and sophistication into interior spaces. Its reflective metallic finish makes it perfect for feature walls, high-end bathrooms, and premium commercial interiors.\nMetallic reflective luxury finish.\nHigh-end decorative appeal.\nIdeal for feature walls.\nAdds premium aesthetic value.\nWorks with dark contrast designs.\nPerfect for luxury bathrooms.\nScratch resistant coating.\nEye-catching visual impact.\nModern glamorous styling.\nDurable ceramic base.\nEnhances interior richness.",
     "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop",
     "category": "stone",
     "price": 120.0,
@@ -145,14 +145,14 @@
     "dimensions": "30x30 cm",
     "material": "Ceramic",
     "inStock": true,
-    "tile_type": "patterned",
-    "size": "medium",
-    "use_type": "wall"
+    "tile_type": "Patterned",
+    "size": "Medium",
+    "use_type": "Wall"
   },
   {
     "id": "tile_011",
     "title": "Outdoor Slate Tile",
-    "description": "A durable slate patio tile built for outdoor environments. It offers strong weather resistance and a natural textured finish, making it ideal for gardens, patios, and exterior walkways.",
+    "description": "A durable slate patio tile built for outdoor environments. It offers strong weather resistance and a natural textured finish, making it ideal for gardens, patios, and exterior walkways.\nWeather resistant outdoor durability.\nNatural stone textured surface.\nSlip resistant for safety.\nIdeal for patios and gardens.\nWithstands heavy foot traffic.\nLow maintenance outdoor solution.\nBlends with natural landscapes.\nLong-lasting structural strength.\nResistant to moisture damage.\nSuitable for walkways.\nRustic natural appearance.",
     "image": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
     "category": "stone",
     "price": 68.5,
@@ -160,29 +160,29 @@
     "dimensions": "60x60 cm",
     "material": "Slate",
     "inStock": true,
-    "tile_type": "plain",
-    "size": "large",
-    "use_type": "floor"
+    "tile_type": "Plain",
+    "size": "Large",
+    "use_type": "Floor"
   },
   {
     "id": "tile_012",
     "title": "Hexagon Cement Tile",
-    "description": "A modern hexagon-shaped cement tile designed for stylish geometric flooring patterns. Its unique shape adds visual interest and is commonly used in contemporary kitchens, bathrooms, and feature floors.",
-    "image": "https://plus.unsplash.com/premium_photo-1704988993814-a9dac402315b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JleSUyMHRpbGUlMjByb29tfGVufDB8fDB8fHww",
+    "description": "A modern hexagon-shaped cement tile designed for stylish geometric flooring patterns. Its unique shape adds visual interest and is commonly used in contemporary kitchens, bathrooms, and feature floors.\nGeometric hexagon design shape.\nPerfect for modern interiors.\nStrong cement durability.\nIdeal for patterned layouts.\nSlip resistant flooring option.\nAdds creative visual structure.\nWorks in mosaic combinations.\nSuitable for bathrooms.\nLong-lasting material strength.\nStylish contemporary appeal.\nEasy to mix color patterns.",
+    "image": "https://plus.unsplash.com/premium_photo-1704988993814-a9dac402315b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fHh8fHww",
     "category": "cement",
     "price": 54.99,
     "currency": "£",
     "dimensions": "25x25 cm",
     "material": "Cement",
-    "inStock": false,
-    "tile_type": "patterned",
-    "size": "small",
-    "use_type": "floor"
+    "inStock": true,
+    "tile_type": "Patterned",
+    "size": "Small",
+    "use_type": "Floor"
   },
   {
     "id": "tile_013",
     "title": "Terrazzo Tile",
-    "description": "A vibrant terrazzo tile featuring a composite mix of stone chips for a stylish speckled appearance. It is highly durable and works well in modern residential and commercial flooring applications.",
+    "description": "A vibrant terrazzo tile featuring a composite mix of stone chips for a stylish speckled appearance. It is highly durable and works well in modern residential and commercial flooring applications.\nUnique speckled stone-chip design.\nHighly durable composite material.\nPerfect for modern interiors.\nScratch resistant surface.\nLong-lasting flooring solution.\nWorks in commercial spaces.\nEasy maintenance surface.\nStylish retro-modern look.\nAvailable in multiple tones.\nSlip resistant finish.\nStrong structural integrity.",
     "image": "https://images.unsplash.com/photo-1615873968403-89e068629265",
     "category": "terrazzo",
     "price": 77.0,
@@ -190,14 +190,14 @@
     "dimensions": "60x60 cm",
     "material": "Composite",
     "inStock": true,
-    "tile_type": "patterned",
-    "size": "large",
-    "use_type": "floor"
+    "tile_type": "Patterned",
+    "size": "Large",
+    "use_type": "Floor"
   },
   {
     "id": "tile_014",
     "title": "Brick Wall Tile",
-    "description": "A rustic clay brick-style wall tile that recreates the look of exposed brickwork. It adds warmth and character, making it ideal for industrial, loft-style, and traditional interior designs.",
+    "description": "A rustic clay brick-style wall tile that recreates the look of exposed brickwork. It adds warmth and character, making it ideal for industrial, loft-style, and traditional interior designs.\nAuthentic brick-like appearance.\nWarm rustic aesthetic.\nPerfect for loft interiors.\nStrong clay material base.\nEasy wall installation.\nAdds industrial character.\nWorks in cafes and homes.\nDurable wall protection.\nTimeless design style.\nTextured surface detail.\nLow maintenance finish.",
     "image": "https://images.unsplash.com/photo-1584622781564-1d987f7333c1",
     "category": "cement",
     "price": 44.0,
@@ -205,14 +205,14 @@
     "dimensions": "20x10 cm",
     "material": "Clay",
     "inStock": true,
-    "tile_type": "textured",
-    "size": "small",
-    "use_type": "wall"
+    "tile_type": "Textured",
+    "size": "Small",
+    "use_type": "Wall"
   },
   {
     "id": "tile_015",
     "title": "Red Gloss Tile",
-    "description": "A bold red glossy ceramic tile designed to create striking visual impact in interior spaces. Its high-shine finish enhances lighting and makes it suitable for feature walls and creative design projects.",
+    "description": "A bold red glossy ceramic tile designed to create striking visual impact in interior spaces. Its high-shine finish enhances lighting and makes it suitable for feature walls and creative design projects.\nHigh gloss reflective finish.\nBold vibrant red color.\nIdeal for feature walls.\nEnhances interior lighting.\nScratch resistant ceramic.\nPerfect for creative designs.\nEasy to clean surface.\nModern bold aesthetic.\nWorks in accent areas.\nDurable wall tile structure.\nEye-catching visual style.",
     "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace",
     "category": "ceramic",
     "price": 38.75,
@@ -220,14 +220,14 @@
     "dimensions": "30x30 cm",
     "material": "Ceramic",
     "inStock": true,
-    "tile_type": "plain",
-    "size": "medium",
-    "use_type": "wall"
+    "tile_type": "Plain",
+    "size": "Medium",
+    "use_type": "Wall"
   },
   {
     "id": "tile_016",
     "title": "Modern Bathroom Tile",
-    "description": "A premium porcelain bathroom tile designed for modern interiors, offering a clean, elegant finish suitable for both floors and walls. Its durable surface resists moisture, making it ideal for bathrooms and wet areas.",
+    "description": "A premium porcelain bathroom tile designed for modern interiors, offering a clean, elegant finish suitable for both floors and walls. Its durable surface resists moisture, making it ideal for bathrooms and wet areas.\nWaterproof porcelain construction.\nIdeal for bathrooms and wet zones.\nElegant modern finish.\nSuitable for floors and walls.\nEasy maintenance surface.\nResistant to stains and moisture.\nLong-lasting durability.\nClean minimalist aesthetic.\nPerfect for luxury bathrooms.\nScratch resistant coating.\nProfessional interior finish.",
     "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
     "category": "porcelain",
     "price": 99.99,
@@ -235,8 +235,8 @@
     "dimensions": "60x60 cm",
     "material": "Porcelain",
     "inStock": false,
-    "tile_type": "plain",
-    "size": "large",
-    "use_type": "wall & floor"
+    "tile_type": "Plain",
+    "size": "Large",
+    "use_type": "Floor & Wall"
   }
 ]
