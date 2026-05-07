@@ -18,7 +18,7 @@ const LoginForm = () => {
       callbackURL: "/",
     });
     if (error) {
-      toast.e(error.message);
+      toast.error(error.message);
     }
     if (res) {
       toast.success("Login Successful");
